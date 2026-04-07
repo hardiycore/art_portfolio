@@ -9,7 +9,7 @@ function Header() {
   return (
     <div className={styles.header}>
       <div className={styles.headerText}>
-        <p>Alex Arroyo</p>
+        <p>hardiycore</p>
       </div>
 
       <div className={styles.headerNav}>
