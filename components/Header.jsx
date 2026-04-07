@@ -19,27 +19,27 @@ function Header() {
           </Link>
         ) : (
           <span className={`${styles.navLink} ${styles.navLinkInactive}`}>
-            Home
+            home
           </span>
         )}
 
-        {router.pathname !== "/artworks" ? (
+        {router.pathname !== "/trabalhos" ? (
           <Link href="/artworks" passHref>
-            <span className={styles.navLink}>artworks</span>
+            <span className={styles.navLink}>trabalhos</span>
           </Link>
         ) : (
           <span className={`${styles.navLink} ${styles.navLinkInactive}`}>
-            Artworks
+            trabalhos
           </span>
         )}
 
         {router.pathname !== "/more" ? (
           <Link href="/more" passHref>
-            <span className={styles.navLink}>more</span>
+            <span className={styles.navLink}>sobre</span>
           </Link>
         ) : (
           <span className={`${styles.navLink} ${styles.navLinkInactive}`}>
-            More
+            sobre
           </span>
         )}
 
