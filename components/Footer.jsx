@@ -14,7 +14,7 @@ function Footer() {
       >
         <FontAwesomeIcon icon={faGithub} />
       </a>
-      <span> © 2023</span>
+      <span> © 2026</span>
     </div>
   );
 }
